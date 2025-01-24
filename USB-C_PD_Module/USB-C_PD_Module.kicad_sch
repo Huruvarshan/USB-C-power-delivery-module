@@ -1,5 +1,606 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e9157937-4343-4473-886a-dab0513dea03")
+	(paper "A4")
+	(title_block
+		(title "Overview")
+		(date "2025-01-24")
+		(rev "1.0")
+	)
+	(lib_symbols)
+	(bus_entry
+		(at 210.82 88.9)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a52cd7bb-92c9-41ec-bd09-2b7537e8a9f9")
+	)
+	(bus_entry
+		(at 101.6 102.87)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6f58a3d-96c8-4b03-8feb-29440ff1dbe2")
+	)
+	(bus_entry
+		(at 213.36 88.9)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2381b57-482f-4fe5-a232-7d0d7a20e9c7")
+	)
+	(bus_entry
+		(at 101.6 100.33)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e379481f-be0d-4277-a0ca-d81af6e3af89")
+	)
+	(wire
+		(pts
+			(xy 97.79 110.49) (xy 146.05 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "002ecb6a-ad41-4434-93f3-002b8f2ac444")
+	)
+	(wire
+		(pts
+			(xy 213.36 91.44) (xy 213.36 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "073abd39-5929-431e-a334-36db6bcc0da9")
+	)
+	(wire
+		(pts
+			(xy 168.91 113.03) (xy 196.85 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1355fd92-5401-49f8-8609-7903eb6df5f3")
+	)
+	(wire
+		(pts
+			(xy 168.91 97.79) (xy 196.85 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "197a38d9-0441-40a0-9701-8e96dd7a8cfb")
+	)
+	(wire
+		(pts
+			(xy 215.9 91.44) (xy 215.9 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "275cf78c-0ac8-4b7c-a71a-45f64c2e1ef2")
+	)
+	(bus
+		(pts
+			(xy 104.14 91.44) (xy 106.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32fd8ccc-46d9-4870-ae3a-912948621862")
+	)
+	(wire
+		(pts
+			(xy 168.91 110.49) (xy 196.85 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc9b6ab-9053-4736-ba91-29cf366dc66b")
+	)
+	(wire
+		(pts
+			(xy 168.91 106.68) (xy 196.85 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b24a1eb-0dac-41e8-836e-0d9dd13aa088")
+	)
+	(wire
+		(pts
+			(xy 168.91 100.33) (xy 196.85 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f542e64-004d-42d9-8cd8-960fcedc681b")
+	)
+	(bus
+		(pts
+			(xy 104.14 97.79) (xy 104.14 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64e09550-f1c5-4127-93e8-a10a0253b15c")
+	)
+	(wire
+		(pts
+			(xy 168.91 115.57) (xy 196.85 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "972ab100-3d27-4245-9257-5a48b0f1afb6")
+	)
+	(wire
+		(pts
+			(xy 168.91 118.11) (xy 196.85 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9875275e-e8a5-427e-858f-d91441a44471")
+	)
+	(bus
+		(pts
+			(xy 210.82 88.9) (xy 213.36 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d94c993-d616-4483-bcd8-bfa18cb3f92e")
+	)
+	(wire
+		(pts
+			(xy 97.79 107.95) (xy 146.05 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9de8b20a-29b2-4de9-acc1-5ccb5cacaf72")
+	)
+	(wire
+		(pts
+			(xy 97.79 102.87) (xy 101.6 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c170153b-7433-4b4a-b211-da58ac5f1dba")
+	)
+	(wire
+		(pts
+			(xy 97.79 100.33) (xy 101.6 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c55effe2-9d31-4808-9681-9ae249c5d975")
+	)
+	(bus
+		(pts
+			(xy 104.14 91.44) (xy 104.14 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4d1a660-1f57-42fc-89cb-40168f78c37d")
+	)
+	(bus
+		(pts
+			(xy 106.68 88.9) (xy 210.82 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d94cbb75-9aa3-42cb-8296-ed69724d101b")
+	)
+	(wire
+		(pts
+			(xy 168.91 104.14) (xy 196.85 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd58f8b3-e45c-44e0-b42b-d199ba286c9a")
+	)
+	(sheet
+		(at 80.01 95.25)
+		(size 17.78 20.32)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2a8bbf7b-c7ff-4aaf-8d9e-cc20cea6930f")
+		(property "Sheetname" "USB-C Connector and Protection"
+			(at 68.072 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB-C_PD_Module_Connector_and_Protection.kicad_sch"
+			(at 80.01 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D-" bidirectional
+			(at 97.79 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d2bdf129-8c3a-40da-90dd-233bba88357a")
+		)
+		(pin "CC1" bidirectional
+			(at 97.79 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "58ed30ea-4723-48ed-83cb-804e650b8890")
+		)
+		(pin "CC2" bidirectional
+			(at 97.79 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "223e455d-69f1-4c95-bece-a58276a66826")
+		)
+		(pin "D+" bidirectional
+			(at 97.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1db4076d-de67-4fcc-aeb7-b73a6617abb6")
+		)
+		(instances
+			(project "USB-C_PD_Module"
+				(path "/e9157937-4343-4473-886a-dab0513dea03"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 95.25)
+		(size 33.02 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6cb13895-410c-4d2e-a670-b234d66656a3")
+		(property "Sheetname" "Connector"
+			(at 196.85 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB-C_PD_Module_Connector.kicad_sch"
+			(at 196.85 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ISNK_FINE" output
+			(at 196.85 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1f0fae07-7fcc-470a-b8cf-fcf70c46582a")
+		)
+		(pin "D-" bidirectional
+			(at 213.36 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a4adeb32-0df2-4ba4-80d1-ad88b9416dfa")
+		)
+		(pin "D+" bidirectional
+			(at 215.9 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "da96e0bf-82f3-4f71-8ddc-aef5604e8666")
+		)
+		(pin "VBUS_MIN" output
+			(at 196.85 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e77323eb-de47-4bb4-b38e-eca7c377b4be")
+		)
+		(pin "VBUS_MAX" output
+			(at 196.85 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f35e5730-91e2-4863-9d68-22d0261a837d")
+		)
+		(pin "ISNK_COARSE" output
+			(at 196.85 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3e70a1c8-ddc5-4570-b012-77955e5d9f7a")
+		)
+		(pin "SDA" bidirectional
+			(at 196.85 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a7095d17-0b97-4709-9d1a-4976ab632e19")
+		)
+		(pin "SCL" input
+			(at 196.85 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a87d63a1-e996-4c0d-a8fd-e3d821399d41")
+		)
+		(pin "FLIP" output
+			(at 196.85 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "007aca6f-3e85-42c6-87cc-edcf7c0d52db")
+		)
+		(pin "FAULT" output
+			(at 196.85 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "05da9c2d-0344-4ee6-9301-a12503c1b1c0")
+		)
+		(instances
+			(project "USB-C_PD_Module"
+				(path "/e9157937-4343-4473-886a-dab0513dea03"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 95.25)
+		(size 22.86 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "859e78f6-ccf9-44d4-8549-a51c7a5069ea")
+		(property "Sheetname" "Main Sheet"
+			(at 146.05 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB-C_PD_Module_Main_Sheet.kicad_sch"
+			(at 146.05 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Feld2" ""
+			(at 146.05 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "VBUS_MIN" input
+			(at 168.91 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5b7444ce-fea6-4ef8-b489-56f6043bf9e3")
+		)
+		(pin "VBUS_MAX" input
+			(at 168.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "654b6def-5ae4-47b7-96fe-a2d2e14b142c")
+		)
+		(pin "ISNK_COARSE" input
+			(at 168.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9bf704e5-dd73-4cbf-bdca-a34740029b4d")
+		)
+		(pin "ISNK_FINE" input
+			(at 168.91 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ca8124ee-7529-45eb-98d0-ca0c4905364b")
+		)
+		(pin "CC1" bidirectional
+			(at 146.05 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "798b5366-0ce3-44bb-9ed3-9f70a4713d6b")
+		)
+		(pin "CC2" bidirectional
+			(at 146.05 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "734fc436-70a0-49d4-96ad-f8aee50abe93")
+		)
+		(pin "SDA" bidirectional
+			(at 168.91 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1992fc6d-3b3a-4e6c-be94-beccc862ea89")
+		)
+		(pin "FAULT" output
+			(at 168.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6670ff4e-732d-4643-a83f-05b454a9b4b5")
+		)
+		(pin "FLIP" output
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8778d31e-c0fe-4dce-8357-871f5c4eac24")
+		)
+		(pin "SCL" input
+			(at 168.91 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0d23e377-277b-4d5e-95c1-6ce825977665")
+		)
+		(instances
+			(project "USB-C_PD_Module"
+				(path "/e9157937-4343-4473-886a-dab0513dea03"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
