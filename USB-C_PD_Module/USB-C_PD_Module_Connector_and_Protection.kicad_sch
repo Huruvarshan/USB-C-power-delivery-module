@@ -1806,6 +1806,12 @@
 		)
 	)
 	(junction
+		(at 127 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f797eea-7d4d-4cb0-ad70-bee989968b4a")
+	)
+	(junction
 		(at 180.34 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1824,10 +1830,34 @@
 		(uuid "3b5ccab4-6358-48fa-9a17-b4d2436dce7c")
 	)
 	(junction
+		(at 127 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bffd2cf-2760-4678-b6a3-80cbc1f626c5")
+	)
+	(junction
+		(at 213.36 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4897bcd0-74a1-4209-9ebb-70f9835391e8")
+	)
+	(junction
 		(at 119.38 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88ab03b5-93af-4bfa-ae6e-3f78111848dc")
+	)
+	(junction
+		(at 127 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9077cba6-6597-4a17-abdc-aab423348669")
+	)
+	(junction
+		(at 127 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3241c5c-43c8-48be-9efc-2737d8c0d41b")
 	)
 	(junction
 		(at 111.76 77.47)
@@ -1852,28 +1882,12 @@
 		(uuid "04caf82a-b576-4b5c-b7b9-bba7030f77dd")
 	)
 	(no_connect
-		(at 128.27 120.65)
-		(uuid "23c60b4d-a354-4675-8f0f-7a624d344c2c")
-	)
-	(no_connect
 		(at 78.74 107.95)
 		(uuid "88c2c6e9-7579-471b-8a8e-2b6e1c20d118")
 	)
 	(no_connect
-		(at 128.27 115.57)
-		(uuid "8bbf9ddc-a3a0-4d03-ab1e-46f6ea09190b")
-	)
-	(no_connect
-		(at 128.27 102.87)
-		(uuid "9ee291bc-48c4-476d-bd3f-99aa1b6a7bf0")
-	)
-	(no_connect
 		(at 101.6 97.79)
 		(uuid "ba917d50-f422-4282-a3f1-5053c155bb79")
-	)
-	(no_connect
-		(at 128.27 107.95)
-		(uuid "bd8441c5-3085-46a3-aaf2-e916619b8102")
 	)
 	(wire
 		(pts
@@ -1884,6 +1898,26 @@
 			(type default)
 		)
 		(uuid "03981eae-57a6-4b42-ab01-9e357f2c201f")
+	)
+	(wire
+		(pts
+			(xy 127 105.41) (xy 119.38 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07795e95-e286-4f9a-b296-16c1b247c23c")
+	)
+	(wire
+		(pts
+			(xy 128.27 102.87) (xy 127 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1178b36a-4398-4394-9f56-261c862bfc3e")
 	)
 	(wire
 		(pts
@@ -1937,7 +1971,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 113.03) (xy 115.57 113.03)
+			(xy 128.27 113.03) (xy 127 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1967,7 +2001,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 100.33) (xy 123.19 100.33)
+			(xy 128.27 100.33) (xy 127 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2004,6 +2038,26 @@
 			(type default)
 		)
 		(uuid "3de042cb-edc3-4f98-92ab-1881699bb7f4")
+	)
+	(wire
+		(pts
+			(xy 127 113.03) (xy 127 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d45a2d2-da9a-4e9c-a926-d046f540c81d")
+	)
+	(wire
+		(pts
+			(xy 127 107.95) (xy 128.27 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f67795-8740-4d03-aea8-b87b81311c6a")
 	)
 	(wire
 		(pts
@@ -2047,6 +2101,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 113.03) (xy 115.57 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e4029cd-468e-4738-8dc5-295af9dfd666")
+	)
+	(wire
+		(pts
 			(xy 101.6 74.93) (xy 123.19 74.93)
 		)
 		(stroke
@@ -2057,7 +2121,57 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 118.11) (xy 111.76 118.11)
+			(xy 127 115.57) (xy 128.27 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f84191d-1cfc-4ce4-a175-03667df906b0")
+	)
+	(wire
+		(pts
+			(xy 213.36 67.31) (xy 213.36 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fdeb3f4-fc22-4e53-9588-4e22d1e00dd6")
+	)
+	(wire
+		(pts
+			(xy 213.36 69.85) (xy 213.36 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dff9973-05b5-4784-b56b-54208267ad5f")
+	)
+	(wire
+		(pts
+			(xy 127 105.41) (xy 127 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fea46f0-cccc-4bae-ac83-6774ad4d1c45")
+	)
+	(wire
+		(pts
+			(xy 127 118.11) (xy 111.76 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a96933ef-cfe6-4db2-a947-af38a293cf90")
+	)
+	(wire
+		(pts
+			(xy 128.27 118.11) (xy 127 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2077,13 +2191,33 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 105.41) (xy 119.38 105.41)
+			(xy 127 102.87) (xy 127 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3288955-1a3a-478b-8d4d-9cc9f6f53292")
+	)
+	(wire
+		(pts
+			(xy 128.27 105.41) (xy 127 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b743f8c9-bef1-4758-88cc-5c9c5bdb938c")
+	)
+	(wire
+		(pts
+			(xy 127 100.33) (xy 123.19 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8a37f62-ce61-4b3f-93bb-dd85001eaacb")
 	)
 	(wire
 		(pts
@@ -2137,6 +2271,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 118.11) (xy 127 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b78dda-8d78-4e5d-8446-f803c103278a")
+	)
+	(wire
+		(pts
 			(xy 101.6 77.47) (xy 111.76 77.47)
 		)
 		(stroke
@@ -2147,13 +2291,33 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 67.31) (xy 180.34 69.85)
+			(xy 127 120.65) (xy 128.27 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed05fd6a-ac0d-4ecc-a360-1e9d2da43c86")
+		(uuid "f3739015-80fa-461e-875a-44e9f46b0593")
+	)
+	(wire
+		(pts
+			(xy 180.34 69.85) (xy 213.36 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8237bc5-7a37-454f-a9e5-07be4358d450")
+	)
+	(wire
+		(pts
+			(xy 213.36 118.11) (xy 213.36 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe3ce58d-2003-4e8f-878b-10f57d5fc963")
 	)
 	(label "D+"
 		(at 101.6 87.63 0)
@@ -2475,6 +2639,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Protection:TVS2200DRV")
+		(at 213.36 110.49 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "473c3689-4400-4131-8d22-e45426350ee4")
+		(property "Reference" "U4"
+			(at 209.55 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TVS2200DRV"
+			(at 209.55 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+			(at 208.28 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tvs2200.pdf"
+			(at 215.9 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Flat-Clamp Surge Protection Device. 22Vrwm, WSON-6"
+			(at 213.36 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "878117d3-9e60-4497-b4ef-c86bfb6e2958")
+		)
+		(pin "7"
+			(uuid "df2b3b28-6d5d-4246-9a90-23068978d1c9")
+		)
+		(pin "4"
+			(uuid "fd565d82-7dc8-4638-8df4-fdd6436c21b0")
+		)
+		(pin "3"
+			(uuid "9c23b9e1-84a4-456d-be10-de35fab4b360")
+		)
+		(pin "1"
+			(uuid "81fa572a-0634-49d8-b7b8-33a80bc65467")
+		)
+		(pin "2"
+			(uuid "579b6d70-f682-4794-a1c5-08bd5adb8550")
+		)
+		(pin "6"
+			(uuid "00c7c4ec-564c-4de8-8d55-4624d395d1db")
+		)
+		(instances
+			(project "USB-C_PD_Module"
+				(path "/e9157937-4343-4473-886a-dab0513dea03/2a8bbf7b-c7ff-4aaf-8d9e-cc20cea6930f"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 138.43 128.27 0)
 		(unit 1)
@@ -2535,72 +2784,6 @@
 			(project "USB-C_PD_Module"
 				(path "/e9157937-4343-4473-886a-dab0513dea03/2a8bbf7b-c7ff-4aaf-8d9e-cc20cea6930f"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 180.34 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "851aa5e8-55fa-426f-9123-abe8bf79a549")
-		(property "Reference" "#PWR01"
-			(at 180.34 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 180.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 180.34 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af083493-6f1b-4f44-bff0-3d1575e65712")
-		)
-		(instances
-			(project "USB-C_PD_Module"
-				(path "/e9157937-4343-4473-886a-dab0513dea03/2a8bbf7b-c7ff-4aaf-8d9e-cc20cea6930f"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2686,6 +2869,138 @@
 			(project "USB-C_PD_Module"
 				(path "/e9157937-4343-4473-886a-dab0513dea03/2a8bbf7b-c7ff-4aaf-8d9e-cc20cea6930f"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 213.36 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8ce2300-bfce-4527-8728-d98b078162b9")
+		(property "Reference" "#PWR01"
+			(at 213.36 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 213.36 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 213.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5688792-8fed-428a-9e24-10d5c9e9948d")
+		)
+		(instances
+			(project "USB-C_PD_Module"
+				(path "/e9157937-4343-4473-886a-dab0513dea03/2a8bbf7b-c7ff-4aaf-8d9e-cc20cea6930f"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 213.36 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcca1daf-fcb1-4d75-bbfb-c8abc0735e3b")
+		(property "Reference" "#PWR026"
+			(at 213.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f16d35b3-4cb4-416a-892c-53498e8deee4")
+		)
+		(instances
+			(project "USB-C_PD_Module"
+				(path "/e9157937-4343-4473-886a-dab0513dea03/2a8bbf7b-c7ff-4aaf-8d9e-cc20cea6930f"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
