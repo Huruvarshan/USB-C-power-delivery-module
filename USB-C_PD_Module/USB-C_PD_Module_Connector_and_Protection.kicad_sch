@@ -2553,7 +2553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35816bc8-fa08-489c-9cf7-10c8f758dba7")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 142.24 109.2199 0)
 			(effects
 				(font
@@ -2632,7 +2632,7 @@
 		(instances
 			(project "USB-C_PD_Module"
 				(path "/e9157937-4343-4473-886a-dab0513dea03/2a8bbf7b-c7ff-4aaf-8d9e-cc20cea6930f"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2648,7 +2648,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "473c3689-4400-4131-8d22-e45426350ee4")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 209.55 109.2199 0)
 			(effects
 				(font
@@ -2717,7 +2717,7 @@
 		(instances
 			(project "USB-C_PD_Module"
 				(path "/e9157937-4343-4473-886a-dab0513dea03/2a8bbf7b-c7ff-4aaf-8d9e-cc20cea6930f"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2950,7 +2950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcca1daf-fcb1-4d75-bbfb-c8abc0735e3b")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR05"
 			(at 213.36 134.62 0)
 			(effects
 				(font
@@ -3000,7 +3000,7 @@
 		(instances
 			(project "USB-C_PD_Module"
 				(path "/e9157937-4343-4473-886a-dab0513dea03/2a8bbf7b-c7ff-4aaf-8d9e-cc20cea6930f"
-					(reference "#PWR026")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3032,7 +3032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 90.17 85.09 0)
 			(effects
 				(font

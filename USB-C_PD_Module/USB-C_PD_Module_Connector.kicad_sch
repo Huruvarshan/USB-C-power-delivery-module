@@ -597,123 +597,179 @@
 			)
 		)
 	)
+	(wire
+		(pts
+			(xy 127 109.22) (xy 132.08 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "119965d8-60d8-43e7-9037-442352a487f7")
+	)
+	(wire
+		(pts
+			(xy 127 93.98) (xy 132.08 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6764de8b-7e97-485b-99f6-c665d802d80c")
+	)
+	(wire
+		(pts
+			(xy 127 88.9) (xy 132.08 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "801b6a9d-358c-44e0-95a7-a24aa25f1cfd")
+	)
+	(wire
+		(pts
+			(xy 127 86.36) (xy 132.08 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aec95ae-6fbe-4c91-9df4-560b503e1d83")
+	)
+	(wire
+		(pts
+			(xy 127 106.68) (xy 132.08 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7ac165f-16c9-4006-8666-9dbb39c3cb03")
+	)
+	(wire
+		(pts
+			(xy 127 104.14) (xy 132.08 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db40905f-1f59-41ab-a08a-af22a03b6220")
+	)
+	(wire
+		(pts
+			(xy 127 91.44) (xy 132.08 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7fffad0-3955-4f94-b344-62636ff73c6d")
+	)
+	(wire
+		(pts
+			(xy 127 101.6) (xy 132.08 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb3d368e-65e9-48d1-96a9-ba02b91684b1")
+	)
 	(hierarchical_label "D-"
 		(shape bidirectional)
-		(at 64.77 125.73 0)
+		(at 127 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0bdc81a7-4bf1-4f22-bb55-b110393551a7")
 	)
 	(hierarchical_label "VBUS_MAX"
 		(shape output)
-		(at 81.28 119.38 0)
+		(at 127 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "18b7495b-3cd9-4eda-a507-00b61452513a")
 	)
 	(hierarchical_label "FLIP"
 		(shape output)
-		(at 81.28 135.89 0)
+		(at 127 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "330cea56-f59c-4280-839b-493448064d2d")
 	)
 	(hierarchical_label "ISNK_FINE"
 		(shape output)
-		(at 81.28 124.46 0)
+		(at 127 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "3fd8e641-7ec4-4c76-af76-4a76366cabe4")
 	)
 	(hierarchical_label "VBUS_MIN"
 		(shape output)
-		(at 81.28 121.92 0)
+		(at 127 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "556fd9a7-eb90-4d0c-aeb7-d4714c0ae223")
 	)
 	(hierarchical_label "FAULT"
 		(shape output)
-		(at 81.28 138.43 0)
+		(at 127 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "7a8d5dbb-0d97-4d25-8fed-e68352c0c095")
 	)
-	(hierarchical_label "SDA"
-		(shape bidirectional)
-		(at 81.28 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "95a78edf-6a7e-4ce0-ab8f-33586afd7cc2")
-	)
 	(hierarchical_label "ISNK_COARSE"
 		(shape output)
-		(at 81.28 127 0)
+		(at 127 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ede1dd76-06db-493f-ab70-2061dd928794")
 	)
-	(hierarchical_label "SCL"
-		(shape input)
-		(at 81.28 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ef8f2148-e6bb-4086-b03b-a9c4bda56dc9")
-	)
 	(hierarchical_label "D+"
 		(shape bidirectional)
-		(at 64.77 123.19 0)
+		(at 127 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "fb716395-3280-4aac-a675-6328e01560ea")
 	)
@@ -813,7 +869,7 @@
 	)
 	(symbol
 		(lib_id "power:VCCQ")
-		(at 113.03 111.76 0)
+		(at 91.44 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -821,8 +877,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af728016-a85f-42cb-a8db-97dbc16a5233")
-		(property "Reference" "#PWR024"
-			(at 113.03 115.57 0)
+		(property "Reference" "#PWR023"
+			(at 91.44 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -831,7 +887,7 @@
 			)
 		)
 		(property "Value" "VBUSOUT"
-			(at 113.03 106.68 0)
+			(at 91.44 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -839,7 +895,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 111.76 0)
+			(at 91.44 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -848,7 +904,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 111.76 0)
+			(at 91.44 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -857,7 +913,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCCQ\""
-			(at 113.03 111.76 0)
+			(at 91.44 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -871,7 +927,7 @@
 		(instances
 			(project "USB-C_PD_Module"
 				(path "/e9157937-4343-4473-886a-dab0513dea03/6cb13895-410c-4d2e-a670-b234d66656a3"
-					(reference "#PWR024")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -973,7 +1029,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 124.46 0)
+		(at 91.44 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -981,8 +1037,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3e1c5f1-fe46-4a3e-85ea-2d6df7eb253b")
-		(property "Reference" "#PWR025"
-			(at 113.03 130.81 0)
+		(property "Reference" "#PWR024"
+			(at 91.44 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -991,7 +1047,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 129.54 0)
+			(at 91.44 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -999,7 +1055,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 124.46 0)
+			(at 91.44 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1008,7 +1064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 124.46 0)
+			(at 91.44 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1017,7 +1073,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 124.46 0)
+			(at 91.44 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1031,7 +1087,7 @@
 		(instances
 			(project "USB-C_PD_Module"
 				(path "/e9157937-4343-4473-886a-dab0513dea03/6cb13895-410c-4d2e-a670-b234d66656a3"
-					(reference "#PWR025")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)

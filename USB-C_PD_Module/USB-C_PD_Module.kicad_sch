@@ -10,42 +10,6 @@
 		(rev "1.0")
 	)
 	(lib_symbols)
-	(bus_entry
-		(at 210.82 88.9)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a52cd7bb-92c9-41ec-bd09-2b7537e8a9f9")
-	)
-	(bus_entry
-		(at 101.6 102.87)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6f58a3d-96c8-4b03-8feb-29440ff1dbe2")
-	)
-	(bus_entry
-		(at 213.36 88.9)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2381b57-482f-4fe5-a232-7d0d7a20e9c7")
-	)
-	(bus_entry
-		(at 101.6 100.33)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e379481f-be0d-4277-a0ca-d81af6e3af89")
-	)
 	(wire
 		(pts
 			(xy 97.79 110.49) (xy 146.05 110.49)
@@ -68,16 +32,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 113.03) (xy 196.85 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1355fd92-5401-49f8-8609-7903eb6df5f3")
-	)
-	(wire
-		(pts
 			(xy 168.91 97.79) (xy 196.85 97.79)
 		)
 		(stroke
@@ -88,33 +42,23 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 91.44) (xy 215.9 95.25)
+			(xy 215.9 88.9) (xy 215.9 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "275cf78c-0ac8-4b7c-a71a-45f64c2e1ef2")
-	)
-	(bus
-		(pts
-			(xy 104.14 91.44) (xy 106.68 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32fd8ccc-46d9-4870-ae3a-912948621862")
+		(uuid "232c3020-7767-4b5d-972b-31a7c01c27b6")
 	)
 	(wire
 		(pts
-			(xy 168.91 110.49) (xy 196.85 110.49)
+			(xy 130.81 102.87) (xy 130.81 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3bc9b6ab-9053-4736-ba91-29cf366dc66b")
+		(uuid "2ffa99f2-0349-4026-8d38-1f10bf8d41b5")
 	)
 	(wire
 		(pts
@@ -136,19 +80,19 @@
 		)
 		(uuid "4f542e64-004d-42d9-8cd8-960fcedc681b")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 104.14 97.79) (xy 104.14 100.33)
+			(xy 128.27 88.9) (xy 215.9 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "64e09550-f1c5-4127-93e8-a10a0253b15c")
+		(uuid "7bb84caa-aa95-4296-86ca-4c17a636e809")
 	)
 	(wire
 		(pts
-			(xy 168.91 115.57) (xy 196.85 115.57)
+			(xy 168.91 110.49) (xy 196.85 110.49)
 		)
 		(stroke
 			(width 0)
@@ -158,23 +102,13 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 118.11) (xy 196.85 118.11)
+			(xy 168.91 113.03) (xy 196.85 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9875275e-e8a5-427e-858f-d91441a44471")
-	)
-	(bus
-		(pts
-			(xy 210.82 88.9) (xy 213.36 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d94c993-d616-4483-bcd8-bfa18cb3f92e")
 	)
 	(wire
 		(pts
@@ -188,7 +122,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 102.87) (xy 101.6 102.87)
+			(xy 97.79 102.87) (xy 130.81 102.87)
 		)
 		(stroke
 			(width 0)
@@ -198,33 +132,23 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 100.33) (xy 101.6 100.33)
+			(xy 128.27 100.33) (xy 128.27 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4c3edfd-00dd-4cd7-a493-70476bf15bcd")
+	)
+	(wire
+		(pts
+			(xy 97.79 100.33) (xy 128.27 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c55effe2-9d31-4808-9681-9ae249c5d975")
-	)
-	(bus
-		(pts
-			(xy 104.14 91.44) (xy 104.14 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4d1a660-1f57-42fc-89cb-40168f78c37d")
-	)
-	(bus
-		(pts
-			(xy 106.68 88.9) (xy 210.82 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d94cbb75-9aa3-42cb-8296-ed69724d101b")
 	)
 	(wire
 		(pts
@@ -235,6 +159,60 @@
 			(type default)
 		)
 		(uuid "dd58f8b3-e45c-44e0-b42b-d199ba286c9a")
+	)
+	(wire
+		(pts
+			(xy 130.81 91.44) (xy 213.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deeb15a6-0bd6-42c6-884c-b1444df3c8a1")
+	)
+	(label "D+"
+		(at 97.79 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "390f43f8-dd95-499c-9e87-14499c51e5d4")
+	)
+	(label "D-"
+		(at 97.79 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3deadf4d-5ceb-4d53-ae86-29c7ffb43b3d")
+	)
+	(label "D+"
+		(at 215.9 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "524a7026-e833-4454-9b99-892d92b16705")
+	)
+	(label "D-"
+		(at 213.36 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90f34fbf-5f52-4b88-aae9-284c2e442e28")
 	)
 	(sheet
 		(at 80.01 95.25)
@@ -315,7 +293,7 @@
 	)
 	(sheet
 		(at 196.85 95.25)
-		(size 33.02 25.4)
+		(size 33.02 20.32)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -335,7 +313,7 @@
 			)
 		)
 		(property "Sheetfile" "USB-C_PD_Module_Connector.kicad_sch"
-			(at 196.85 121.2346 0)
+			(at 196.85 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -403,28 +381,8 @@
 			)
 			(uuid "3e70a1c8-ddc5-4570-b012-77955e5d9f7a")
 		)
-		(pin "SDA" bidirectional
-			(at 196.85 113.03 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "a7095d17-0b97-4709-9d1a-4976ab632e19")
-		)
-		(pin "SCL" input
-			(at 196.85 110.49 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "a87d63a1-e996-4c0d-a8fd-e3d821399d41")
-		)
 		(pin "FLIP" output
-			(at 196.85 115.57 180)
+			(at 196.85 110.49 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -434,7 +392,7 @@
 			(uuid "007aca6f-3e85-42c6-87cc-edcf7c0d52db")
 		)
 		(pin "FAULT" output
-			(at 196.85 118.11 180)
+			(at 196.85 113.03 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -453,7 +411,7 @@
 	)
 	(sheet
 		(at 146.05 95.25)
-		(size 22.86 25.4)
+		(size 22.86 20.32)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -473,7 +431,7 @@
 			)
 		)
 		(property "Sheetfile" "USB-C_PD_Module_Main_Sheet.kicad_sch"
-			(at 146.05 121.2346 0)
+			(at 146.05 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -550,18 +508,8 @@
 			)
 			(uuid "734fc436-70a0-49d4-96ad-f8aee50abe93")
 		)
-		(pin "SDA" bidirectional
-			(at 168.91 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "1992fc6d-3b3a-4e6c-be94-beccc862ea89")
-		)
 		(pin "FAULT" output
-			(at 168.91 118.11 0)
+			(at 168.91 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -571,16 +519,6 @@
 			(uuid "6670ff4e-732d-4643-a83f-05b454a9b4b5")
 		)
 		(pin "FLIP" output
-			(at 168.91 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "8778d31e-c0fe-4dce-8357-871f5c4eac24")
-		)
-		(pin "SCL" input
 			(at 168.91 110.49 0)
 			(effects
 				(font
@@ -588,7 +526,7 @@
 				)
 				(justify right)
 			)
-			(uuid "0d23e377-277b-4d5e-95c1-6ce825977665")
+			(uuid "8778d31e-c0fe-4dce-8357-871f5c4eac24")
 		)
 		(instances
 			(project "USB-C_PD_Module"
