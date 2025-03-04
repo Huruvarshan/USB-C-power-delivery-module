@@ -419,4 +419,15 @@
 			)
 		)
 	)
+	(model "C:/Users/andrinhaberzettl/USB-C-power-delivery-module/USB-C_PD_Module/Libary/USB-C_PD_Module.wrl"
+		(offset
+			(xyz -157 108.4 0)
+		)
+		(scale
+			(xyz 390 390 390)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
