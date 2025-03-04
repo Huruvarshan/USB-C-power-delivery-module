@@ -1,0 +1,9 @@
+2025-02-25 10:54:35,355 - panelizer_logger - INFO - Running Panelizer
+2025-02-25 10:54:35,359 - panelizer_logger - INFO - ['--panelx', '5.500000', '--panely', '7.500000', '--smaller', '--vscorelayer', 'User.1', '--vscoretextlayer', 'User.1', '--gapx', '5.000000', '--gapy', '5.000000']
+2025-02-25 10:54:35,361 - panelizer_logger - INFO - PANELIZER START: 2025-02-25T10:54:35.361569
+2025-02-25 10:54:36,969 - panelizer_logger - ERROR - 
+START: 2025-02-25T10:54:35.361569
+Board saved by user.
+Specify X or Y gaps, not both. Quitting.
+
+2025-02-25 10:54:37,706 - panelizer_logger - INFO - Panelizer complete
