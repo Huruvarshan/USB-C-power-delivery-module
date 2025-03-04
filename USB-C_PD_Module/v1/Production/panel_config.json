@@ -1,15 +1,24 @@
 {
-  "dimensionsInchesBtn": false,
-  "dimensionsMmBtn": true,
-  "panelSizeSmallerBtn": true,
-  "panelSizeLargerBtn": false,
-  "panelSizeXCtrl": "5.5",
-  "panelSizeYCtrl": "7.5",
-  "gapsVerticalCtrl": "5",
-  "gapsHorizontalCtrl": "5",
-  "removeRightVerticalCheck": false,
-  "productionBordersCheck": false,
-  "productionFiducialsCheck": false,
-  "productionExposeCheck": false,
-  "vScoreLayer": "User.1"
+    "layout": {
+        "alternation": "rows",
+        "cols": "3"
+    },
+    "cuts": {
+        "type": "vcuts"
+    },
+    "framing": {
+        "type": "railslr",
+        "width": "10mm"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "5mm",
+        "voffset": "5mm",
+        "size": "3.2mm"
+    },
+    "fiducials": {
+        "type": "4fid",
+        "hoffset": "5mm",
+        "voffset": "10mm"
+    }
 }
