@@ -1,0 +1,25 @@
+{
+    "layout": {
+        "alternation": "rows",
+        "vspace": "3mm",
+        "cols": "5"
+    },
+    "tabs": {
+        "type": "fixed",
+        "vwidth": "5mm"
+    },
+    "cuts": {
+        "type": "vcuts"
+    },
+    "framing": {
+        "type": "railslr"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "2.5mm",
+        "voffset": "2.5mm"
+    },
+    "copperfill": {
+        "type": "solid"
+    }
+}
