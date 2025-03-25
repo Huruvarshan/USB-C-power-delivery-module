@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.2*%
+%TF.CreationDate,2025-03-04T21:54:34+01:00*%
+%TF.ProjectId,USB-C_PD_Module,5553422d-435f-4504-945f-4d6f64756c65,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.2) date 2025-03-04 21:54:34*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X140659600Y-99370401D02*
+X176219600Y-99370401D01*
+X176219600Y-119690401D01*
+X140659600Y-119690401D01*
+X140659600Y-99370401D01*
+M02*
